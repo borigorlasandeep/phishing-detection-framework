@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\borig\OneDrive\Desktop\Final Year project\phishing_detection_framework\test.py", line 19, in <module>
+    decision_agent.analyze_input("hi!!", input_type="SMS")
+  File "C:\Users\borig\OneDrive\Desktop\Final Year project\phishing_detection_framework\agents\decision_agent.py", line 62, in analyze_input
+    return self._format_decision(result, high_confidence)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\borig\OneDrive\Desktop\Final Year project\phishing_detection_framework\agents\decision_agent.py", line 140, in _format_decision
+    if is_safe_brand:
+       ^^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'is_safe_brand' where it is not associated with a value
